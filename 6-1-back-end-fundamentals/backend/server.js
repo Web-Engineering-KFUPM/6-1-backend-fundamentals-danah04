@@ -10,7 +10,9 @@ import cors from 'cors';
 app.use(cors());
 
 // TODO 5: Create the home route "/"
-
+app.get('/', (req, res) => {
+    res.send('Welcome to the home page!');
+});
 
 
 // TODO 6: Create the "/about" route
