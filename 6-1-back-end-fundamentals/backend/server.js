@@ -6,8 +6,8 @@ import express from 'express';
 const app = express();
 
 // TODO 3: Allow React to access the server
-
-
+import cors from 'cors';
+app.use(cors());
 
 // TODO 5: Create the home route "/"
 
